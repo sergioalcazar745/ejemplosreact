@@ -11,7 +11,7 @@ function Matematicas1(props){
         <div>
             <h1>Hijo -- Matematicas</h1>
             <button onClick={() => dobleNumero()}>Doble de {numero}</button>
-            <button onClick={() => tripleNumeroPadre(6)}>Triple de 6</button>
+            <button onClick={() => tripleNumeroPadre(numero)}>Triple de {numero}</button>
         </div>
     )
 }
