@@ -1,5 +1,5 @@
 function Resultado(props) {  
-    var resultado =props.resultado;
+    var resultado = props.resultado;
     return (
       <div>
         <h1>Resultado {resultado}</h1>
