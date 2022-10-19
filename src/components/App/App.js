@@ -14,6 +14,7 @@ function App() {
 
   const tripleNumeroPadre = (numero, metodo) => {
     var resultado = parseInt(numero) * 3;
+    metodo(resultado);
     console.log("El triple es: " + resultado);
   }
 

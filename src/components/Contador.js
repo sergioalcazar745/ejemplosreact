@@ -12,9 +12,10 @@ function Contador(props){
         <div>
             <h2>Ejemplo State de React</h2>
             <h3>Valor numero: {inicio}</h3>
-            <button onClick={() => dobleNumero(inicio)}>Doble de {inicio}</button>
-            <button onClick={() => tripleNumeroPadre(resultadoContador, setResultadoContador)}>Triple de {inicio}</button>
+            <button onClick={() => dobleNumero(inicio)}>Doble</button>
+            <button onClick={() => tripleNumeroPadre(resultadoContador, setResultadoContador)}>Triple</button>
             <h1>Resultado: {resultadoContador}</h1>
+            <hr/>
         </div>
     )
 }
