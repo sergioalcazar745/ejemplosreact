@@ -1,7 +1,5 @@
 import './App.css';
-import Matematicas from './../Matematicas';
-import Contador from '../Contador';
-import Resultado from '../Resultado';
+import Coche from '../Coche';
 import { useState } from 'react';
 
 function App() {
@@ -21,12 +19,8 @@ function App() {
   return (
     <div>
       <h1>Componente App</h1>
-      {/* <Matematicas tripleNumeroPadre={tripleNumeroPadre} numero="5"/>
-      <Resultado resultado={resultado}/> */}
-      <Contador tripleNumeroPadre={tripleNumeroPadre} inicio="22" />
-      <Contador tripleNumeroPadre={tripleNumeroPadre} inicio="44" />
-      <Contador tripleNumeroPadre={tripleNumeroPadre} inicio="66" />
-      <Contador tripleNumeroPadre={tripleNumeroPadre} inicio="14" />
+      <Coche Marca="audi" Modelo="Q4" Aceleracion="20" VelocidadMaxima="240"/>
+      <Coche Marca="pontiac" Modelo="firebird" Aceleracion="40" VelocidadMaxima="280"/>
     </div>
   );
 }
